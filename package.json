@@ -1,0 +1,17 @@
+{
+  "name": "@amedia/autoprefixer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss -c './node_modules/@amedia/postcss-config' -o './css/result.css' './css/source.css'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@amedia/postcss-config": "0.0.2",
+    "autoprefixer": "^6.4.1",
+    "postcss": "^5.2.0",
+    "postcss-cli": "^2.6.0"
+  }
+}
